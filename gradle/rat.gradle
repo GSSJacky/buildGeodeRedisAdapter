@@ -19,6 +19,8 @@ apply plugin: "org.nosphere.apache.rat"
 
 rat {
   inputDir = rootDir
+  
+  failOnError = false
 
   excludes = [
     // git
